@@ -7,10 +7,10 @@ def get_matches(players):
 	"""
 	
 	Args:
-	    players (tuple): 
+	    players (tuple): list of players to generate matchups.
 	    
 	Returns:
-	    matchup (list): 
+	    matchup (list): list of unique matchups
 	    
 	Example:
 	    >>> get_matches(['Harry', 'Howard', 'Hugh'])
